@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- From Tag : (Block Tag) -->
+    <!-- รายละเอียดใน From Tag เช่น Input Tag ,Button Tag :(Inline Tag) -->
+    <!-- Method GET, POST, PUT, DELETE, PATCH -->
+    <br /><br /><br />
+    <form action="" method="" enctype="multipart/form-data"></form>
+    <label for="fname">ป้อนชื่อ</label>:
+    <input type="text" id="" name="" placeholder="ป้อนชื่อ" />
+    <br /><br />
+    <label for="lname">ป้อนนามสกุล</label>:
+    <input type="text" id="" name="" placeholder="ป้อนนามสกุล" />
+    <br /><br />
+    <label for="lname">ป้อนอีเมล</label>:
+    <input type="text" id="" name="" placeholder="ป้อนอีเมล" />
+    <br /><br />
+    <label for="lname">ป้อนเบอร์โทรศัพท์</label>:
+    <input type="text" id="" name="" placeholder="ป้อนเบอร์โทรศัพท์" />
+    <br /><br />
+    <label>ป้อนตัวเลข</label>:
+    <input type="number" id="" name="" placeholder="ป้อนตัวเลข" />
+    <br /><br />
+    <label>ที่อยู่</label>:<!--ป้อนข้อมูลเยอะๆ-->
+    <textarea
+      name=""
+      id=""
+      cols="30"
+      rows="10"
+      placeholder="ป้อนที่อยู่"
+    ></textarea>
+    <br /><br />
+    <label>เลือกได้แค่ 1 เช่น เพศ</label>:
+    <input type="radio" id="" name="gender" value="male" />ชาย
+    <input type="radio" id="" name="gender" value="female" />หญิง
+    <input type="radio" id="" name="gender" value="LGBYQ+" />LGBYQ+ <br /><br />
+    <label>สาขาวิชา</label>:
+    <select name="" id="">
+      <option value="1">สาขาวิชา 1</option>
+      <option value="2">สาขาวิชา 2</option>
+      <option value="3">สาขาวิชา 3</option>
+    </select>
+    <br /><br />
+    <br /><br />
+    <label for="">อาหารที่ชอบ</label
+    >:<!--เลือกได้มากกว่า 1 หรือ ไม่เลือกก็ได้-->
+    <input type="checkbox" id="" name="" value="01" />ผัดกะเพรา
+    <input type="checkbox" id="" name="" value="02" />ผัดไทย
+    <input type="checkbox" id="" name="" value="03" />ผัดหมู <br /><br />
+    <label for="">เลือกไฟล์ภาพ</label>:
+    <input type="file" id="" name="" accept="image/*" />
+    <br /><br />
+    <label for="">เลือกไฟล์ MP3</label>:
+    <input type="file" id="" name="" accept="audio/*" />
+    <br /><br />
+    <label for="">เลือกไฟล์ MP4</label>:
+    <input type="file" id="" name="" accept="video/*" />
+    <br /><br />
+
+    <label for="">เลือกไฟล์ PDF</label>:
+    <input type="file" id="" name="" accept="application/pdf" />
+    <br /><br />
+    <label for="">เลือกไฟล์ อื่นๆ</label>:
+    <input type="file" id="" name="" accept=".doc,.docx,.elxsl,.ppt,.pptx" />
+<br><br>
+      <label for="">เลือกวัน</label>:
+      <input type="date" id="" name="" />
+<br><br>
+      <label for="">เลือกเวลา</label>:
+      <input type="time" id="" name="" />
+<br><br>
+      <label for="">เลือกวันเวลา</label>:
+      <input type="datetime-local" id="" name="" />
+    <br /><br />
+    <!-- ประเภทปุ่ม -->
+     <!-- เอาข้อมูลที่ป้อนหรือเลือกไปประมวลผล -->
+    <input type="submit" value="บันทึกข้อมูล" />
+    <!-- ล้างข้อมูลที่ป้อนที่เลือก -->
+    <input type="reset" value="ล้างข้อมูล" />
+    <!-- แล้วแต่จะทำอะไรก้ได้ -->
+     <button>ตกลง</button>
+    <button>ยกเลิก</button>
+    <button>แล้วแต่จะทำอะไรก้ได้</button>
+    <br><br>
+    <!-- input ประเภทที่ซ่อนเอาไว้ไม่เห็นบน From -->
+     <!-- เหมาะกับข้อมูลที่ต้องส่งไปประมวลผล แต่ไม่ต้องการให้ผู้ใช้งานป้อนหรือเลือก -->
+    <input type="hidden" id="" name="studen-status" value="น.ศ. ปกติ" />
+  </body>
+</html>
